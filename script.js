@@ -3,10 +3,10 @@ let inputNewTodo = document.querySelector('.header-input');
 let listTodo = document.querySelector('#todo');
 let todoItem = document.querySelector('.todo-item');
 let completed = document.querySelector('#completed');
-let initialTodoItems = document.querySelectorAll('.text-todo');
-initialTodoItems.forEach(todo => {
-  todo.style.display = 'none';
-});
+// let initialTodoItems = document.querySelectorAll('.text-todo');
+// initialTodoItems.forEach(todo => {
+//   todo.style.display = 'none';
+// });
 
 let newTodo = '';
 let listOfNewTodos = [];
